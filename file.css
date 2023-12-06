@@ -1,0 +1,48 @@
+.Wrapper {
+    width: 650px;
+    margin:50px auto;
+    border: 1px solid black;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    background-color: brown;
+    height: 50px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    margin: 0 5px;
+    padding: 15 25px;
+    font: bold 14px Arial;
+}
+
+.menu a:hover, .menu a.active { 
+    background-color: white;
+    color:brown;
+}
+
+.content {
+    padding: 0 10px 5px;
+}
+
+.content h1{
+    text-align: center;
+}
+
+.content a:hover{
+    text-decoration: underline;
+    color: green
+    
+}
+
+.content a{
+    text-decoration: none;
+    font-weight: bold;
+    color:blue;
+}
+
